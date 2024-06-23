@@ -15,4 +15,5 @@ Furthermore, to reroute users to other nodes when one of the engines or servers 
 provisioned the loadbalancer service to ensure high availability.
 Finally, I also create a configmap for the cluster to make the mariaDB image reusable in all
 environments or new engines.
+
 PS: I added persistent volume claim manifest and deployment manifest for any other use
